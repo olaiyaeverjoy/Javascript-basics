@@ -71,11 +71,87 @@
 
 // }
 
-let age = '40'
+// let age = '40'
 
-if(true){
-    let age = '20';
-    console.log('This is the perfect age ',age);
-}
+// if(true){
+//     let age = '20';
+//     console.log('This is the perfect age ',age);
+// }
 
-console.log('This is the perfect age ',age);
+// console.log('This is the perfect age ',age);
+
+//functions: are reusable blocks of code that perform an action or are used to store a value
+
+// function greet(){
+//     console.log('Hello dear!')
+// };
+
+// greet();
+
+// const adds = function greet(){
+//     console.log('How are we today?')
+// };
+
+// add();
+
+
+// const news = function(name = 'shaun', time = 'night'){
+//     console.log(`good ${time} ${name}`)
+// };
+
+// // news('shaun', 'night');
+// news();
+
+
+//we want the function to return a value and not just store the value inside the var calcArea
+// const calcArea = function(radius){
+//     let area = 3.14 * radius**2;
+//     return area;
+// }
+
+// const area = calcArea(5);
+// console.log(area);
+
+// const greets = function(){
+//     return 'hello world!';
+// }
+// const results = greets();
+// console.log(results);
+
+
+
+
+// const greet = () => 'hello world';
+// const result = greet();
+// console.log(result);
+
+// const bill = function(products, tax){
+//     let total = 0;
+//         for(let i = 0; i < products.length; i++){
+//         total += products[i] + products[i] * tax;
+//     };
+// }
+
+// const bill = (products, tax) =>{ // products is the array of prices, while tax is the percentage tax rate. 
+//     let total = 0;
+//     // let products = [10, 20, 30]; the reason why we can't do this is beacuse we have identified product and tax
+//     // let tax = [0.2];
+//         for(let i = 0; i < products.length; i++){
+//         total += products[i] + products[i] * tax;// products[i]: is the price amount and to get the tax we multipy the product price and tax.
+//     };
+//     return total;  // sends final total back (main purpose of a function)
+// };
+// console.log(bill([10,20,30], 0.2)); // calculation: 10 + 10*2 = 12 and so on.
+
+//methods and call back functions
+
+// const names = 'everj';
+
+// let result = names.toUpperCase();
+// console.log(result);
+
+let people = ['shaun', 'aaron', 'luigi', 'caston','emma'];
+
+people.forEach((person, index) => {
+    console.log(`${index} - hello ${person}`)
+});
