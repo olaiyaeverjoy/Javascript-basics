@@ -150,8 +150,65 @@
 // let result = names.toUpperCase();
 // console.log(result);
 
-let people = ['shaun', 'aaron', 'luigi', 'caston','emma'];
+// let people = ['shaun', 'aaron', 'luigi', 'caston','emma'];
 
-people.forEach((person, index) => {
-    console.log(`${index} - hello ${person}`)
-});
+// people.forEach((person, index) => {
+//     console.log(`${index} - hello ${person}`)
+// });
+
+//objects literals  
+
+//creating an array of objects
+// const mine = [
+//     {bloga: 'This user is just trying to go about his day'},
+//     {blogb: 'Javascript is actually getting interesting'}
+// ];
+// let user = {
+//     name: 'Emma',
+//     nationality: 'Nigerian',
+//     dobirth: 21,
+//     email: 'olaiyaeverjoy0202@gmail.com',
+//     workplace: 'Abuleegba',
+//     blog: [
+//         {bloga: 'This user is just trying to go about his day', likes: 30},
+//         {bloga: 'Javascript is actually getting interesting', likes: 50}
+//     ],
+//     login() {                           //we can use this,also for the 'this keyword.
+//         console.log('user logged in');
+//     },
+//     logout: () => {                     //we can use this only when the 'this' keyword isnt used 
+//         console.log('user logged out');
+//     },
+//     logBlog: function(){                //we can use this also 
+//         // console.log(this.blog);
+//         console.log("let's see how it goes today!")
+//         this.blog.forEach (blog => {         //this.blog(is the array) forEach is the method used for the array       
+//             console.log(blog.bloga, blog.likes);
+//         });
+//     }    
+// };
+
+// console.log(user);
+// user.login();
+// user.logout();
+// user.logBlog();
+// //update properties of an object 
+
+// console.log(user.name);
+
+// user.age = 45;  
+// console.log(user.age);
+
+// console.log(user['name']);
+// printng out the properties and methods in objects can be done using the object name.whatever either the property or method.
+
+//code from chatgpt
+// const users = {   
+//   name: "Alice",
+//   greet() {
+//     console.log(this.name);
+//   }
+// };
+
+// user.greet(); // "Alice"
+
