@@ -80,7 +80,7 @@
 
 // console.log('This is the perfect age ',age);
 
-//functions: are reusable blocks of code that perform an action or are used to store a value
+// functions: are reusable blocks of code that perform an action or are used to store a value
 
 // function greet(){
 //     console.log('Hello dear!')
@@ -103,7 +103,7 @@
 // news();
 
 
-//we want the function to return a value and not just store the value inside the var calcArea
+// we want the function to return a value and not just store the value inside the var calcArea
 // const calcArea = function(radius){
 //     let area = 3.14 * radius**2;
 //     return area;
@@ -143,7 +143,7 @@
 // };
 // console.log(bill([10,20,30], 0.2)); // calculation: 10 + 10*2 = 12 and so on.
 
-//methods and call back functions
+// methods and call back functions
 
 // const names = 'everj';
 
@@ -156,9 +156,9 @@
 //     console.log(`${index} - hello ${person}`)
 // });
 
-//objects literals  
+// objects literals  
 
-//creating an array of objects
+// creating an array of objects
 // const mine = [
 //     {bloga: 'This user is just trying to go about his day'},
 //     {blogb: 'Javascript is actually getting interesting'}
@@ -202,7 +202,7 @@
 // console.log(user['name']);
 // printng out the properties and methods in objects can be done using the object name.whatever either the property or method.
 
-//code from chatgpt
+// code from chatgpt
 // const users = {   
 //   name: "Alice",
 //   greet() {

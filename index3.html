@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
     <title>Document</title>
 </head>
 <body>
      
-    <div>
-        <header class="container">Item lister</header>
-    </div>
-    <div class="container">
-        <h1>Add items</h1>
-        <form action="newform">
-            <input type="text" placeholder="type here">
-            <input type="submit">
-        </form>
-        <h2>Items</h2>
-        <input type="text"><br>
-        <input type="text"><br>
-        <input type="text"><br>
-        <input type="text">
-        
+    <header id="main-header" class="bg-success">
+        <div class="container">
+            <h1 id="header-title">Item Lister</h1>
+        </div> <!-- container-->
+    </header>
 
-    </div>
+    <div class="container">
+        <div id="main" class="card card-body">
+            <form>
+                <input class="texting" type="text" placeholder="Title...">
+                <input type="submit" class="btn" value="Submit">
+            </form>
+
+
+            <ul id="items" class="list-group">
+                <li class="list-group-item">Hit the gym</li>
+                <li class="list-group-item">Pay the bills</li>
+                <li class="list-group-item">Meet Emma</li>
+                <li class="list-group-item">Read a book</li>
+            </ul>
+
+        </div> <!-- main -- card -- card-body -->
+    </div> <!-- container -->
+    
     <!-- <p>lorem success ipsium</p>
     <p>lorem lorem ipsium</p> -->
     <!-- <p>lorem lorem lorem</p>
